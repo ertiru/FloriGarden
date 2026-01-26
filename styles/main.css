@@ -14,7 +14,7 @@
 }
 
 .container {
-  max-width: 1550px;
+  max-width: 1250px;
 }
 
 #header .container {
@@ -219,6 +219,8 @@
 
 #welcome {
   background-color: rgba(250, 251, 243, 1);
+}
+#welcome .container {
   padding-top: 120px;
   display: flex;
   justify-content: center;
@@ -661,13 +663,14 @@
 
 #about {
   background-color: rgba(55, 72, 54, 1);
+}
+#about .container {
   padding-top: 120px;
   padding-left: 40px;
   padding-bottom: 120px;
   position: relative;
   margin-bottom: 1px;
 }
-
 .vija {
   position: absolute;
   left: 48px;
@@ -839,7 +842,7 @@
   font-family: sans-serif;
 }
 
-.footer-top {
+.footer-top .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -928,7 +931,7 @@
   width: 100%;
 }
 
-.footer-bottom {
+.footer-bottom .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -946,18 +949,21 @@
   flex: 1;
   display: flex;
   justify-content: center;
-  gap: 20px;
+  flex-direction: row;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .footer-links a {
   display: flex;
   align-items: center;
+  flex-direction: row;
   gap: 8px;
   color: #e5e5e5;
   text-decoration: none;
   font-weight: 500;
   font-size: 13px;
+  flex-wrap: wrap;
 }
 
 .footer-links img {
@@ -1122,5 +1128,11 @@
   }
   #kont {
     padding-top: 60px;
+  }
+}
+@media (min-width: 1400px) {
+  .hor img {
+    height: 100%;
+    width: 50%;
   }
 }
