@@ -33,18 +33,10 @@
           <img src="./images/logo.png" />
           <div class="nav">
             <ul>
-              <li>
-                <a href="index.html">Welcome</a>
-              </li>
-              <li>
-                <a href="services.html">Services</a>
-              </li>
-              <li>
-                <a href="about.html">About Us</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
+              <li><a href="index.html">Welcome</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
           <div class="flexitems">
@@ -78,50 +70,61 @@
               </li>
             </ul>
           </div>
-          <div class="hamburger"><img src="images/hamburgeri.png" /></div>
+          <nav role="navigation">
+            <div class="menuToggle">
+              <input type="checkbox" id="menuCheckbox" />
+              <span></span>
+              <span></span>
+              <span></span>
+              <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
         </div>
       </div>
       <div id="banner">
         <div class="container">
-          <div>
-            <div class="col-12 col-lg-6">
-              <h1>Living spaces creatively designed</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur. Tellus sed leo amet et
-                at aliquet fames tellus. Bibendum consectetur dui id lorem hac.
-                Eget congue et a eu blandit.
-              </p>
-              <div class="li">
-                <div class="row">
-                  <div class="col-4 col-lg-3">
-                    <a class="p1" href="index.html">Contact us now</a>
-                  </div>
-                  <div class="col-4 col-lg-3">
-                    <a class="p2" href="index.html">Explore our Services</a>
-                  </div>
+          <div class="col-12 col-lg-6 bn">
+            <h1>Living spaces creatively designed</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Tellus sed leo amet et at
+              aliquet fames tellus. Bibendum consectetur dui id lorem hac. Eget
+              congue et a eu blandit.
+            </p>
+            <div class="li">
+              <div class="row">
+                <div class="col-4 col-sm-2 col-lg-3">
+                  <a class="p1" href="index.html">Contact us now</a>
+                </div>
+                <div class="col-4 col-sm-2 col-lg-3">
+                  <a class="p2" href="index.html">Explore our Services</a>
                 </div>
               </div>
-              <img class="load col-6" src="./images/load.png" />
             </div>
-            <div class="col-3 offset-9 kuti">
-              <div class="wrapper1">
-                <img
-                  src="./images/location-pin (3) 1.png"
-                  alt="Lokacioni"
-                  class="lok"
-                />
-                <img
-                  src="./images/right-down 1.png"
-                  alt="Shigjeta"
-                  class="shigjeta"
-                />
-              </div>
-              <h1>Flori Garten</h1>
-              <p>
-                We design Flori Garden as a part of our new landscape design
-                commission in the country
-              </p>
+            <img class="load col-6" src="./images/load.png" />
+          </div>
+          <div class="col-3 offset-9 kuti">
+            <div class="wrapper1">
+              <img
+                src="./images/location-pin (3) 1.png"
+                alt="Lokacioni"
+                class="lok"
+              />
+              <img
+                src="./images/right-down 1.png"
+                alt="Shigjeta"
+                class="shigjeta"
+              />
             </div>
+            <h1>Flori Garten</h1>
+            <p>
+              We design Flori Garden as a part of our new landscape design
+              commission in the country
+            </p>
           </div>
         </div>
       </div>
@@ -324,7 +327,7 @@
               single day, with FLORI GARTEN.
             </p>
 
-            <a href="index.html">Quotation Requests</a>
+            <a href="index.html" class="bt">Quotation Requests</a>
           </div>
         </div>
       </div>
